@@ -1,0 +1,24 @@
+/* //randomNumber, displayMessage, winCounter, lossCounter, gemOne, gemTwo, gemThree, gemFour, totalScore
+ */
+
+#randomNumber {
+    color: blue;
+    background-color: yellow;
+}
+
+#gemOne {
+    background-color: rgba(75, 15, 75, 0.233);
+    padding: 20px;
+}
+
+#gemTwo {
+    padding: 20px;
+}
+
+#gemThree {
+    padding: 20px;
+}
+
+#gemFour {
+    padding: 20px;
+}
