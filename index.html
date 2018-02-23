@@ -8,7 +8,7 @@
     <title>Crystals Collector</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -35,7 +35,10 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <p>Score to beat</p><span id="goalCounter"></span>
+                <p>Score to beat</p><span id="randomNumber"></span>
+            </div>
+            <div class="col-md-3">
+                <p>Display message</p><span id="displayMessage"></span>
             </div>
             <div class="col-md-3">
                 <p>Wins:</p><span id="winCounter"></span>
@@ -46,24 +49,16 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                <span id="topaz">
-                <img src="assets/images/icons8-topaz-96.png" alt="Topaz" srcset="">
-                </span>
+                <img id="gemOne" src="assets/images/icons8-topaz-96.png" alt="Topaz" srcset="">
             </div>
             <div class="col-md-2">
-                <span id="jewel">
-                <img src="assets/images/icons8-jewel-96.png" alt="Jewel" srcset="">
-                </span>
+                <img id="gemTwo" src="assets/images/icons8-jewel-96.png" alt="Jewel" srcset="">
             </div>
             <div class="col-md-2">
-                <span id="sapphire">
-                <img src="assets/images/icons8-sapphire-96.png" alt="Sapphire" srcset="">
-                </span>
+                <img id="gemThree" src="assets/images/icons8-sapphire-96.png" alt="Sapphire" srcset="">
             </div>
             <div class="col-md-2">
-                <span id="emerald">
-                <img src="assets/images/icons8-emerald-96.png" alt="Emerald" srcset="">
-                </span>
+                <img id="gemFour" src="assets/images/icons8-emerald-96.png" alt="Emerald" srcset="">
             </div>
         </div>
         <div class="row">
@@ -73,9 +68,10 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <p>Player score</p><span id="yourScore"></span>
+                <p>Player score</p><span id="totalScore"></span>
             </div>
         </div>
+
 
 
 
