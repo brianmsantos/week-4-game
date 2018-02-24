@@ -1,24 +1,55 @@
 /* //randomNumber, displayMessage, winCounter, lossCounter, gemOne, gemTwo, gemThree, gemFour, totalScore
  */
 
+body {
+    background: url("https://img.wallpapersafari.com/desktop/1680/1050/60/58/1S9nJc.jpg")
+}
+
+.navbar-brand {
+    background-color: skyblue;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.section {
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#rowOne {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #randomNumber {
-    color: blue;
-    background-color: yellow;
+    padding: 10px;
+}
+
+.col-md-4 {
+    font-size: 20px;
+}
+
+.col-md-3 {
+    font-size: 20px;
 }
 
 #gemOne {
-    background-color: rgba(75, 15, 75, 0.233);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 10px;
 }
 
 #gemTwo {
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 10px;
 }
 
 #gemThree {
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 10px;
 }
 
 #gemFour {
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 10px;
 }
