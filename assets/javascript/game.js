@@ -44,10 +44,12 @@ $(document).ready(function() {
 
     function compare() {
         if (game.total_score === game.random_number) {
-            $("#winCounter").html(game.wins + 1);
+            game.wins += 1
+            $("#win-counter").html(game.wins);
             reset()
         } else if (game.total_score > game.random_number) {
-            $("#lossCounter").html(game.losses + 1);
+            game.losses += 1
+            $("#loss-counter").html(game.losses);
             reset()
         }
     }
@@ -55,12 +57,6 @@ $(document).ready(function() {
     function add(a, b) {
         game.wins
     }
-
-
-
-
-
-
 
     $("#gemOne").on("click", function get_jewel_values() {
         var value = $("#gemOne").attr("value")
