@@ -45,11 +45,11 @@ $(document).ready(function() {
     function compare() {
         if (game.total_score === game.random_number) {
             game.wins += 1
-            $("#win-counter").html(game.wins);
+            $("#winCounter").html(game.wins);
             reset()
         } else if (game.total_score > game.random_number) {
             game.losses += 1
-            $("#loss-counter").html(game.losses);
+            $("#lossCounter").html(game.losses);
             reset()
         }
     }
